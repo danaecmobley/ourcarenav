@@ -225,8 +225,12 @@ footer p {
    2.3 TEXT COLOR SETTINGS               
 -----------------------------------------*/
 
-h1, h2, h3, p {
-	color: #fff;
+h1, h2, p {
+	color: #000000;
+}
+
+h3 {
+	color: #ffffff;
 }
 
 section h2, h4 {
@@ -277,7 +281,7 @@ section {
 -----------------------------------------*/
 
 header {
-	background: url(../img/stressed_woman_green_pen.jpeg) no-repeat fixed center center;
+	background: url(../img/stressed_woman.jpeg) no-repeat fixed center center;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -286,8 +290,16 @@ header {
 	}
 
 /*---------------------------------------
-   4.1 HEADER LEFT               
+   4.1 HEADER LEFT              
 -----------------------------------------*/
+#body-text{
+	padding-top:175px;
+}
+
+#body-text h2{
+	color:#ffffff;
+	text-shadow: 2px 2px #000000;
+}
 
 .logo {
 	display: inline-block;
@@ -308,10 +320,11 @@ ul.header-list li {
 	list-style: none;
 	background: url(../img/check.png) no-repeat;
 	padding-left: 55px;
-	font-size: 18px; /* PIXEL FALLBACK */
-	font-size: 1.8rem;
-	font-family: 'Raleway', sans-serif;
-	color: #fff;
+	padding-bottom: 10px;
+	font-size: 21px; /* PIXEL FALLBACK */
+	font-size: 1.25 rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
 	margin: 0 0 15px;
 }
 
@@ -393,11 +406,15 @@ ul.header-list li {
 }
 
 .stat-icon1 {
-	background: url(../img/icon1.png) no-repeat left center;
+	background: url(../img/dreamit_logo.png) no-repeat left center;
+	height:50px;
+	width:200px;
 }
 
 .stat-icon2 {
-	background: url(../img/icon2.png) no-repeat left center;
+	background: url(../img/medcity_logo.jpg) no-repeat left center;
+	height:50px;
+	width:30px;
 }
 
 .stat-icon3 {
@@ -418,9 +435,30 @@ ul.header-list li {
 }
 
 .stat-text p {
-	color: #fff;
+	color: #ffffff;
 }
 
+#medcitylogo {
+	height:80px;
+	width:60px;
+	margin-top:20px;
+}
+
+#phillybizlogo {
+	height:70px;
+	width:150px;
+	margin-top:30px;
+}
+#technicallylogo {
+	height:70px;
+	width:150px;
+	margin-top:30px;
+}
+
+#as-seen {
+	color: #ffffff;
+	padding-top: 40px;
+}
 /* --------------------------------------
 =========================================
    6. FEATURE SECTION
