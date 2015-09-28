@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-	$to_email   	= "support@craftxhtml.com"; //Recipient email, Replace with your own email.
+	$to_email   	= "reitmeyerjane@gmail.com "; //Recipient email, Replace with your own email.
 	
 	//check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
@@ -32,14 +32,6 @@ if($_POST)
 	}
 	if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
 		$output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
-		die($output);
-	}
-	if(!filter_var($phone_number, FILTER_SANITIZE_NUMBER_FLOAT)){ //check for valid numbers in phone number field
-		$output = json_encode(array('type'=>'error', 'text' => 'Enter only digits in phone number'));
-		die($output);
-	}
-	if(strlen($website)<3){ //check emtpy website
-		$output = json_encode(array('type'=>'error', 'text' => 'Too short website! Please enter something.'));
 		die($output);
 	}
 	

@@ -294,13 +294,13 @@ header {
 -----------------------------------------*/
 #body-text{
 	padding-top:50px;
-	color:#ffffff;
-	text-shadow: 2px 2px #000000;
+	color:#000000;
+	text-shadow: 1px 1px #FFFFFF;
 }
 
 #body-copy{
-	color:#ffffff;
-	text-shadow: 2px 2px #000000;
+	color:#000000;
+	text-shadow: 1px 1px #FFFFFF;
 }
 
 header h1 {
@@ -322,8 +322,8 @@ ul.header-list li {
 	font-size: 18px; /* PIXEL FALLBACK */
 	font-size: 1 rem;
 	font-family: 'Montserrat', sans-serif;
-	color:#FFFFFF;
-	text-shadow: 2px 2px #000000;
+	color:#000000;
+	text-shadow: 2px 2px #FFFFFF;
 	margin: 0 0 15px;
 }
 
@@ -405,9 +405,10 @@ ul.header-list li {
 }
 
 .stat-icon1 {
-	background: url(../img/dreamit_logo.png) no-repeat left center;
-	height:50px;
+	background: url(../img/dreamit_health_logo.png) no-repeat left center;
+	height:90px;
 	width:200px;
+	margin-left: 20px;
 }
 
 .stat-icon2 {
